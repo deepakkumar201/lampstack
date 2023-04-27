@@ -1,5 +1,5 @@
 # Setup LAMP Stack
-- hosts: 192.168.0.250
+- hosts: 172.31.29.30
   tasks:
     - name: install lamp stack
       become: yes
